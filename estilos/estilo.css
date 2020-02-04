@@ -1,0 +1,23 @@
+#logo { /* Estilo del logo "Ismael Gym's" de la navbar */
+    width: 150px;
+    height: 52.65px;
+    margin-right: 5px;
+}
+
+#navbar {
+    height: 6
+}
+
+@media only screen and (max-width: 1000px) { /* Media querie para el alto del carousel en tamaño escritorio */
+    #carouselExampleIndicators {
+        padding-top: 68.65px;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) { /* Media querie para el alto del carousel en tamaño escritorio */
+    #carouselExampleIndicators img {
+        height: 100vh;
+    }
+    
+}
