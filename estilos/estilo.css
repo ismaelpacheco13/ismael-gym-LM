@@ -8,7 +8,7 @@
     height: 6
 }
 
-@media only screen and (max-width: 1000px) { /* Media querie para el alto del carousel en tamaño escritorio */
+@media only screen and (max-width: 1000px) { /* Media querie para el padding del carousel en tamaño menor a escritorio */
     #carouselExampleIndicators {
         padding-top: 68.65px;
     }
@@ -20,4 +20,70 @@
         height: 100vh;
     }
     
+}
+
+/* Div ventajas */
+#ventajas {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 87%;
+}
+
+#ventajas h2 {
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) { /* Media querie para el tamaño de la fuente en ventajas al pasar a escritorio */
+    #ventajas h2 {
+        font-size: 40px;
+    }
+    
+    #ventajas {
+        font-size: 25px;
+        height: 30vh;
+    }
+    
+}
+
+/* Div jumbotron */
+#jumbotron {
+    background-image: url("../imagenes/jumbotron.jpg");
+    background-size: cover;
+    margin-bottom: -49px;
+}
+
+#jumbotron #video {
+    width: 70%;
+    margin-left: -5%;
+}
+
+/* Div footer */
+.footer{
+  background: rgba(0, 0, 0, 0.93);
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
