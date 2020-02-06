@@ -5,7 +5,7 @@
 }
 
 #navbar {
-    height: 6
+    height: 6px;
 }
 
 @media only screen and (max-width: 1000px) { /* Media querie para el padding del carousel en tamaño menor a escritorio */
@@ -55,7 +55,7 @@
 
 #jumbotron #video {
     width: 70%;
-    margin-left: -5%;
+    margin-left: 15%;
 }
 
 /* Div footer */
@@ -84,4 +84,23 @@
   .location{
   }
   .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
+/* TARIFAS */
+
+/* Card deck */
+#cards {
+    
+}
+
+.card-header {
+    margin-top: 61px;
+}
+
+#filas {
+    margin-top: 20px;
+}
+
+#carta {
+    margin-top: 15px;
 }
