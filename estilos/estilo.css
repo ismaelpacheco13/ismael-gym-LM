@@ -104,9 +104,18 @@
 #carta {
     margin-top: 15px;
     margin-left: 2.67%;
-    margin-right: -2.67%;;
+    margin-right: -2.67%;
 }
 
 #wrappercartas {
     width: 97.8%;
+}
+
+/* Anotaciones */
+#anotaciones {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 3%;
+    color: gray;
+    font-size: 14px;
 }
