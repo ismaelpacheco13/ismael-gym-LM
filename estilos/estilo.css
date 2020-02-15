@@ -99,6 +99,7 @@
 
 #filas {
     margin-top: 20px;
+    width: 98.5vw;
 }
 
 #carta {
@@ -108,7 +109,6 @@
 }
 
 #wrappercartas {
-    width: 97.8%;
 }
 
 /* Anotaciones */
