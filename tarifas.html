@@ -46,7 +46,7 @@
   <div class="card-body">
     <h5 class="card-title">Cuota Mensual Pareja</h5>
     <p class="card-text">Disfruta de todas nuestras instalaciones además de asesoramiento personalizado por nuestros expertos</p>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mensualPareja">¡HAZTE SOCIO!</button>
+    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalSocio">¡HAZTE SOCIO!</button>
   </div>
   <div class="card-footer text-muted">
     60€/mes
@@ -59,14 +59,14 @@
       <div class="card-body">
         <h5 class="card-title">Cuota Diaria</h5>
         <p class="card-text">Si tan solo quieres pasarte por un día, esta es tu tarifa perfecta</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuotaDiaria">5€ / día</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSocio">5€ / día</button>
       </div>
     </div>
     <div id="carta" class="card">
       <div class="card-body">
         <h5 class="card-title">Cuota Fidelidad</h5>
-        <p class="card-text">Si eres una persona constante y con un objetivo a la vista, esta tarifa es para ti</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuotaFidelidad">30€ / mes**</button>
+        <p class="card-text">Si eres una persona constante y con un objetivo en el punto de mira, esta tarifa es para ti</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSocio">30€ / mes**</button>
       </div>
     </div>
   </div>
@@ -74,115 +74,104 @@
     <div id="carta" class="card">
       <div class="card-body">
         <h5 class="card-title">Cuota Diaria Pareja</h5>
-        <p class="card-text">¿Disfrutando de viaje con tu pareja pero queréis ejercitaros un poco?</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuotaDiariaPareja">4€ / día*</button>
+        <p class="card-text">¿Disfrutando de viaje con tu pareja? Con esta tarifa podréis pasar una tarde de deporte juntos</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSocio">4€ / día*</button>
       </div>
     </div>
     <div id="carta" class="card">
       <div class="card-body">
         <h5 class="card-title">Cuota Mensual Básica</h5>
         <p class="card-text">¡Disfruta de nuestras instalaciones y empieza a lograr tu objetivo!</p>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuotaMensualBasica">42€ / mes</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSocio">42€ / mes</button>
       </div>
     </div>
   </div>
 </div>
    
-   <div class="modal fade" id="mensualPareja" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal fade" id="modalSocio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">FORMULARIO SOCIO ONLINE</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre</label>
+      <input type="name" class="form-control" id="inputName4" placeholder="Nombre">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Apellidos</label>
+      <input type="surname" class="form-control" id="inputSurname4" placeholder="Apellidos">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Correo electrónico</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@gmail.com">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">DNI</label>
+      <input type="dni" class="form-control" id="inputDni4" placeholder="DNI">
     </div>
   </div>
-</div>
-  
-  <div class="modal fade" id="cuotaDiaria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+  <div class="form-group">
+    <label for="inputAddress">Dirección</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Calle Frederick Terman, 3">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Dirección 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, Casa, Estudio">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Teléfono de contacto</label>
+    <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Teléfono">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-5">
+      <label for="inputCity">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">País</label>
+      <select id="inputState" class="form-control">
+        <option selected>Escoge..</option>
+        <option>España</option>
+        <option>Francia</option>
+        <option>Portugal</option>
+      </select>
+    </div>
+    <div class="form-group col-md-3">
+      <label for="inputZip">C.P</label>
+      <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-</div>
-  
-  <div class="modal fade" id="cuotaDiariaPareja" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+  <div class="form-group">
+    <label for="inputFee">Cuota/Tarifa</label>
+      <select id="inputFee" class="form-control">
+        <option selected>Escoge..</option>
+        <option>Mensual Pareja</option>
+        <option>Diaria</option>
+        <option>Diaria Pareja</option>
+        <option>Fidelidad</option>
+        <option>Mensual Básica</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Acepto la <a href="privacidad-y-uso-de-datos.pdf" target="_blank">política de privacidad y uso de datos</a>
+      </label>
     </div>
   </div>
-</div>
-  
-  <div class="modal fade" id="cuotaFidelidad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
+</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="modal fade" id="cuotaMensualBasica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </div>
     </div>
   </div>
@@ -190,7 +179,7 @@
    
    <div id="anotaciones">
        <p><i>* En la cuota diaria pareja el precio es por persona.<br><br>
-       ** En la cuota fidelidad se debe aceptar un compromiso de permanencia de 6 meses, en caso de pedir la baja antes de ese tiempo se deberá pagar una cuantía que variará entre los 50€ y 100€ en función de los meses restantes para finalizar la permanencia.</i></p>
+       ** En la cuota fidelidad se debe aceptar un compromiso de permanencia de 6 meses, en caso de pedir la baja antes de ese tiempo se deberá pagar una cuantía que variará entre los 50€ y 100€ en función de los meses restantes para la finalización de la permanencia.</i></p>
    </div>
     
     <div class="mt-5 pt-5 pb-5 footer">
