@@ -99,16 +99,12 @@
 
 #filas {
     margin-top: 20px;
-    width: 98.5vw;
+    width: 99.5vw;
+    padding-left: 2vw;
 }
 
 #carta {
     margin-top: 15px;
-    margin-left: 2.67%;
-    margin-right: -2.67%;
-}
-
-#wrappercartas {
 }
 
 /* Anotaciones */
