@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,11 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/index.css">
     <script src="scripts/script.js"></script>
 
     <title>Ismael Gym's</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="navbar">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,131 +33,135 @@
                     <li class="nav-item">
                         <a class="nav-link" href="febrero-ismaelgyms.pdf" target="_blank">Clases</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="informate.html">Infórmate</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </div>
-    
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="imagenes/carousel1def.jpg" alt="First slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagenes/carousel1def.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagenes/carousel2def.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imagenes/carousel3def.jpg" alt="Third slide">
+            </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="imagenes/carousel2def.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="imagenes/carousel3def.jpg" alt="Third slide">
-        </div>
-      </div>
     </div>
-    
+
     <div id="ventajas" class="container-fluid">
         <h2>¿A QUE ESPERAS PARA LOGRAR TU FÍSICO SOÑADO?</h2>
         <p>No seas tímido, pasate por nuestras instalaciones y te informaremos y asesoraremos poniendo a tu disposición a los mejores entrenadores
-        de España</p>
+            de España</p>
         <a class="btn btn-info btn-lg" href="tarifas.html">TARIFAS</a>
     </div>
-    
+
     <div id="jumbotron" class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div id="video" class="embed-responsive embed-responsive-16by9">
-        <iframe  src="https://www.youtube.com/embed/GLTyjzPOm7I" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+        <div class="container">
+            <div id="video" class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/GLTyjzPOm7I" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
         </div>
-      </div>
     </div>
-    
+
     <div id="dudas" class="container-fluid">
         <h2>¿TIENES ALGUNA PREGUNTA?</h2>
         <p>Si no quieres pasarte por nuestras instalaciones para preguntar, ¡puedes hacerlo por aquí!</p>
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalContacto">CONTACTO</button>
     </div>
-    
+
     <div class="modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">FORMULARIO CONTACTO</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Nombre</label>
-      <input type="name" class="form-control" id="inputName4" placeholder="Nombre">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">FORMULARIO CONTACTO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Nombre</label>
+                                <input type="name" class="form-control" id="inputName4" placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4">Apellidos</label>
+                                <input type="surname" class="form-control" id="inputSurname4" placeholder="Apellidos">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword4">Correo electrónico</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Coméntanos tus dudas</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Acepto la <a href="privacidad-y-uso-de-datos.pdf" target="_blank">política de privacidad y uso de datos</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Apellidos</label>
-      <input type="surname" class="form-control" id="inputSurname4" placeholder="Apellidos">
-    </div>
-  </div>
-  <div class="form-group">
-      <label for="inputPassword4">Correo electrónico</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@gmail.com">
-    </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Coméntanos tus dudas</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Acepto la <a href="privacidad-y-uso-de-datos.pdf" target="_blank">política de privacidad y uso de datos</a>
-      </label>
-    </div>
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-    </div>
-  </div>
-</div>
-    
+
     <div class="mt-5 pt-5 pb-5 footer">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12 about-company">
-              <h2>¡No te pierdas!</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44498.14961094247!2d-118.4865287276831!3d34.00936046937139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacf4578353b%3A0x475106ed00e39b87!2sGold&#39;s%20Gym!5e0!3m2!1ses!2ses!4v1580926354437!5m2!1ses!2ses" width="85%" height="90%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-              <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+            <div class="row">
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2>¡No te pierdas!</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44498.14961094247!2d-118.4865287276831!3d34.00936046937139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacf4578353b%3A0x475106ed00e39b87!2sGold&#39;s%20Gym!5e0!3m2!1ses!2ses!4v1580926354437!5m2!1ses!2ses" width="85%" height="90%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+                </div>
+                <div class="col-lg-3 col-xs-12 links">
+                    <h4 class="mt-lg-0 mt-sm-3">Enlaces</h4>
+                    <ul class="m-0 p-0">
+                        <li>- <a href="#dudas">Contacto</a></li>
+                        <li>- <a href="tarifas.html">Tarifas</a></li>
+                        <li>- <a href="febrero-ismaelgyms.pdf" target="_blank">Clases</a></li>
+                        <li>- <a href="https://www.youtube.com/playlist?list=PLz1rd2qZW1yXUvGGSRdkMny3pVISET0_N" target="_blank">Motivación</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4">Dirección</h4>
+                    <p>360 Hampton Dr, Venice, CA 90291, Estados Unidos</p>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>(+34) 506172612050696c6172</p>
+                    <p><i class="fa fa-envelope-o mr-3"></i>Espero que te guste :)</p>
+                    <p>ismael.pacheco@iescampanillas.com</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-xs-12 links">
-              <h4 class="mt-lg-0 mt-sm-3">Enlaces</h4>
-                <ul class="m-0 p-0">
-                  <li>- <a href="#dudas">Contacto</a></li>
-                  <li>- <a href="tarifas.html">Tarifas</a></li>
-                  <li>- <a href="febrero-ismaelgyms.pdf" target="_blank">Clases</a></li>
-                  <li>- <a href="https://www.youtube.com/playlist?list=PLz1rd2qZW1yXUvGGSRdkMny3pVISET0_N" target="_blank">Motivación</a></li>
-                </ul>
+            <div class="row mt-5">
+                <div class="col copyright">
+                    <p class=""><small class="text-white-50">2020. Ismael Pacheco Torrecilla.</small></p>
+                </div>
             </div>
-            <div class="col-lg-4 col-xs-12 location">
-              <h4 class="mt-lg-0 mt-sm-4">Dirección</h4>
-              <p>360 Hampton Dr, Venice, CA 90291, Estados Unidos</p>
-              <p class="mb-0"><i class="fa fa-phone mr-3"></i>(+34) 506172612050696c6172</p>
-              <p><i class="fa fa-envelope-o mr-3"></i>Espero que te guste :)</p>
-              <p>ismael.pacheco@iescampanillas.com</p>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col copyright">
-              <p class=""><small class="text-white-50">2020. Ismael Pacheco Torrecilla.</small></p>
-            </div>
-          </div>
         </div>
-        </div>
-    
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

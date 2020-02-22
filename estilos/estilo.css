@@ -1,4 +1,5 @@
-#logo { /* Estilo del logo "Ismael Gym's" de la navbar */
+#logo {
+    /* Estilo del logo "Ismael Gym's" de la navbar */
     width: 150px;
     height: 52.65px;
     margin-right: 5px;
@@ -8,129 +9,36 @@
     height: 6px;
 }
 
-@media only screen and (max-width: 1000px) { /* Media querie para el padding del carousel en tamaño menor a escritorio */
-    #carouselExampleIndicators {
-        padding-top: 68.65px;
-    }
-    
-}
-
-@media only screen and (min-width: 1000px) { /* Media querie para el alto del carousel en tamaño escritorio */
-    #carouselExampleIndicators img {
-        height: 100vh;
-    }
-    
-}
-
-/* Div ventajas */
-#ventajas {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: center;
-    width: 87%;
-}
-
-#ventajas h2 {
-    padding-bottom: 10px;
-}
-
-@media only screen and (min-width: 1000px) { /* Media querie para el tamaño de la fuente en ventajas al pasar a escritorio */
-    #ventajas h2 {
-        font-size: 40px;
-    }
-    
-    #ventajas {
-        font-size: 25px;
-    }
-    
-}
-
-/* Div jumbotron */
-#jumbotron {
-    background-image: url("../imagenes/jumbotron.jpg");
-    background-size: cover;
-    margin-bottom: -49px;
-}
-
-#jumbotron #video {
-    width: 70%;
-    margin-left: 15%;
-}
-
 /* Div footer */
-.footer{
-  background: rgba(0, 0, 0, 0.93);
-  color:white;
+.footer {
+    background: rgba(0, 0, 0, 0.93);
+    color: white;
 }
 
 .links {
     padding-bottom: 10px;
 }
-  .links ul{
-      list-style-type: none;
+
+.links ul {
+    list-style-type: none;
 }
-    .links li a{
-      color: white;
-      transition: color .2s;
+
+.links li a {
+    color: white;
+    transition: color .2s;
 }
-    .links:hover{
-        text-decoration:none;
-        color:#4180CB;
-    }  
-  .about-company{
+
+.links:hover {
+    text-decoration: none;
+    color: #4180CB;
+}
+
+.about-company {
     padding-bottom: 30px;
-  } 
-  .location{
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
-
-/* Div Dudas */
-#dudas {
-    padding-top: 79px;
-    margin-bottom: 25px;
-    text-align: center;
-    width: 87%;
 }
 
-#dudas h2 {
-    padding-bottom: 10px;
-}
+.location {}
 
-@media only screen and (min-width: 1000px) { /* Media querie para el tamaño de la fuente en ventajas al pasar a escritorio */
-    #dudas h2 {
-        font-size: 40px;
-    }
-    
-    #dudas {
-        font-size: 25px;
-    }
-    
-}
-
-/* TARIFAS */
-
-/* Card deck */
-#cards {
-    
-}
-
-.card-header {
-    margin-top: 61px;
-}
-
-#filas {
-    margin-top: 20px;
-}
-
-#carta {
-    margin-top: 15px;
-}
-
-/* Anotaciones */
-#anotaciones {
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 3%;
-    color: gray;
-    font-size: 14px;
+.copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
 }

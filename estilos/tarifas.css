@@ -1,0 +1,25 @@
+/* TARIFAS */
+
+/* Card deck */
+#cards {}
+
+.card-header {
+    margin-top: 61px;
+}
+
+#filas {
+    margin-top: 20px;
+}
+
+#carta {
+    margin-top: 15px;
+}
+
+/* Anotaciones */
+#anotaciones {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 3%;
+    color: gray;
+    font-size: 14px;
+}
